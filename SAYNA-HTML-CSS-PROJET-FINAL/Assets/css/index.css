@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    /* Technique du 62.5% : ainsi 1rem = Medium (font-size) et La Taille de police du Site va s'adapter à la Taille de police du Navigateur de l'Internaute */
+}
+
+
+/* HEADER👇 */
+
+header {
+    width: 100vw;
+    height: 5rem;
+    background-color: #d35649;
+}
+
+img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.header_section1>div {
+    display: inline-block;
+    /* pour que le Logo et [EVENTS] soient côte à côte */
+}
+
+.header_section1 {
+    float: left;
+    width: auto;
+    height: 5rem;
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+div.events {
+    bottom: 2rem;
+    position: relative;
+}
+
+.header_section2 {
+    float: right;
+    font-size: 1rem;
+    width: 25rem;
+    height: 5rem;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0.25cm;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav>ul {
+    margin: 2rem 1rem;
+    display: inline-block;
+}
+
+
+/* FOOTER👇 */
+
+section.section_1 {
+    width: 100vw;
+    height: 25rem;
+    background-color: #1f1f1f;
+}
+
+div.section_a {
+    display: flex;
+    height: 12.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+div.section_a ul {
+    padding: 0;
+}
+
+div.nav1,
+div.nav2 {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+div.font_mapnav_container {
+    display: flex;
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-location-dot {
+    color: white;
+    font-size: 2.5rem;
+    /* ceci est une FOnt-awesome */
+}
+
+section.section_1 div.section_a a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+section.section_1 div.section_a li {
+    display: inline-block;
+}
+
+section.section_2 {
+    width: 100vw;
+    height: 3rem;
+    background-color: #444;
+}
